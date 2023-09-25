@@ -20,7 +20,16 @@ const Sidebar = () => {
             <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="4d4d4e" />
             </NavLink>
+
         </nav>
+
+        <ul>
+            <li>
+                <a target="_blank" rel="noreferrer" href='https://github.com/SnubStumpy2007'>
+                    <FontAwesomeIcon icon={faLinkedin} color="4d4d4e" />
+                </a>
+            </li>        
+        </ul>
         
     </div>
 }
