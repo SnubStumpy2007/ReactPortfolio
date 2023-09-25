@@ -1,6 +1,6 @@
 import './App.scss';
 import { Routes, Route } from 'react-router-dom';
-import Layout from './components/layout'; // Make sure 'layout' is correctly capitalized
+import Layout from './components/Layout';
 
 function App() {
   return (
