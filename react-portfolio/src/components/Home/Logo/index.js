@@ -9,7 +9,7 @@ const Logo = () => {
 
 
      return (
-        <div className='logo-container'>
+        <div className='logo-container' ref={bgRef}>
             <img className='solid-logo' src={LogoS} alt="S" />
             <svg
         width="559pt"
