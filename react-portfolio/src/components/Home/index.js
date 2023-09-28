@@ -11,10 +11,14 @@ const Home = () => {
 
 
     useEffect(() => {
-        return setTimeout(() => {
+        const timeoutId = setTimeout(() => {
             setLetterClass('text-animate-hover')
-        }, 4000)
-    }, [])
+        }, 4000);
+    
+        // Return a cleanup function to clear the timeout if the component unmounts
+        return () => clearTimeout(timeoutId);
+    }, []);
+    
 
     return (
         <div className='container home-page'>
