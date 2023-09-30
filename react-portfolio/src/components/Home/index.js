@@ -23,7 +23,7 @@ const Home = () => {
     }, []);
     
     return (
-        
+        <>
         <div className='container home-page'>
           <Sidebar />
 
@@ -45,6 +45,8 @@ const Home = () => {
             <Logo />
             
         </div>
+        <Loader type="pacman" />
+        </>
     );
 }
 
