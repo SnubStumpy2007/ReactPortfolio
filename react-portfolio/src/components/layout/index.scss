@@ -99,7 +99,11 @@
                 animation-delay: 1.2s;
             }
         }
+    }
 
-
+    .text-animate-hover {
+        &:hover {
+            color: #fff;
+        }
     }
 }
