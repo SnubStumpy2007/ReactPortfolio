@@ -1,7 +1,7 @@
 .logo-container {
     z-index: 0;
-    width: 400px;
-    height: 609px;
+    width: 200px; /* Adjust the width to your desired value */
+    height: 304.5px; /* Adjust the height to maintain the aspect ratio */
     position: absolute;
     top: 0;
     right: 15%;
@@ -12,11 +12,14 @@
 }
 
 svg {
-    width: 100%;
-    height: auto;
+    width: 100%; /* Keep this at 100% to scale the SVG proportionally to its parent */
+    height: 100%;
     bottom: 0;
     transform: rotateZ(30deg) !important;
 }
+
+/* ... other styles ... */
+
 
 .solid-logo {
     position: absolute;
