@@ -11,6 +11,7 @@ import {
   faJsSquare,
   faGitAlt,
 } from '@fortawesome/free-brands-svg-icons';
+import Sidebar from '../Sidebar';
 
 
 const About = () => {
@@ -28,13 +29,13 @@ const About = () => {
     return (
         <>
     <div className="container about-page">
+    <Sidebar />
         <div className="text-zone">
             <h1>
                 <AnimatedLetters
                 letterClass={letterClass}
                 strArray={['A','b','o','u','t', '', 'M','e']} idx={15} />
             </h1>
-
             <p>
             I'm Nick Stypinksi, an enthusiastic Full-Stack Developer with a strong affinity for React.
             My journey into the world of web development began with an innate curiosity and a desire to transform that passion into a career.
