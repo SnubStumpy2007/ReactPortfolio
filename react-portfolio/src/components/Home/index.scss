@@ -20,10 +20,10 @@
         &::before {
             content: '<h1>';
             font-family: 'La Belle Aurore';
-            color: #ffd700;
-            font-size: 18px;
+            color: #e308f7;
+            font-size: 50px;
             position: absolute;
-            margin-top: -40px;
+            margin-top: -100px;
             left: 15px;
             opacity: 0.6;
         }
@@ -31,8 +31,8 @@
         &::after {
             content: '</h1>';
             font-family: 'La Belle Aurore';
-            color: #ffd700;
-            font-size: 18px;
+            color: #e308f7;
+            font-size: 50px;
             position: absolute;
             margin-top: 18px;
             margin-left: 15px;
@@ -52,8 +52,8 @@
 }
 
 .logo-image {
-    width: 60px; /* Set the desired width */
-    height: 100px; /* Set desired height */
+    width: 60px; 
+    height: 100px;
 }
 
 h2 {
@@ -67,14 +67,14 @@ h2 {
 }
 
 .flat-bottom {
-    color: #ffd700;
+    color: #e308f7;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 4px;
     font-family: sans-serif;
     text-decoration: none;
     padding: 10px 18px;
-    border: 1px solid #ffd700;
+    border: 1px solid #ff00d9;
     margin-top: 25px;
     float: left;
     animation: fadeIn 1s 1.8s backwards;
