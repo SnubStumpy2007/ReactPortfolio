@@ -29,7 +29,6 @@ const Sidebar = () => {
         to="/"
         onClick={() => setShowNav(false)}>
         <img src={LogoS} alt="Logo" />
-        <img className="sub-logo" src={LogoSubtitle} alt="stypinski" />
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
         <NavLink 
@@ -49,7 +48,7 @@ const Sidebar = () => {
         <NavLink
           activeclassname="active"
           className="portfolio-link"
-          to="/portfolio"
+          to="https://github.com/SnubStumpy2007"
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
@@ -57,7 +56,7 @@ const Sidebar = () => {
         <NavLink
           activeclassname="active"
           className="contact-link"
-          to="/contact"
+          to="https://www.linkedin.com/in/nicholas-stypinski-98261482/"
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
@@ -69,7 +68,7 @@ const Sidebar = () => {
           size="3x"
           className='close-icon' />
       </nav>
-      <ul>
+      {/* <ul>
         <li>
           <a
             href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
@@ -85,7 +84,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://github.com/bobangajicsm"
+            href="https://github.com/SnubStumpy2007"
             target="_blank"
             rel="noreferrer"
           >
@@ -118,7 +117,7 @@ const Sidebar = () => {
             />
           </a>
         </li>
-      </ul>
+      </ul> */}
       <FontAwesomeIcon 
           onClick={() => setShowNav(true)}
           icon={faBars}
