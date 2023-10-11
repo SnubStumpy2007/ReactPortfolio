@@ -62,3 +62,6 @@ Navigation Links: Update the navigation links to point to your own pages or sect
 This project is licensed under the MIT License. You are free to use, modify, and distribute the code as needed. See the LICENSE file for details.
 
 Feel free to customize this README to provide more specific information about your portfolio website and how others can use and modify it. Good luck with your portfolio website project!
+
+## Sources
+https://www.youtube.com/watch?v=bmpI252DmiI&list=PLI28LNj6gTHWET9_2ErYn_fKIzwNqN2yE&index=29&t=3948s
